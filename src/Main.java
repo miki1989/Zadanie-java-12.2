@@ -22,7 +22,7 @@ public class Main {
                 System.out.print(numbers.peek() + " + ");
             }
             if(num == numbers.size()-1){
-                System.out.print(numbers.peek() + " = ");
+                System.out.print(numbers.poll() + " = ");
             }
 
             numbers.poll();
